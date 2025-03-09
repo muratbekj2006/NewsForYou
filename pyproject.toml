@@ -1,0 +1,17 @@
+[project]
+name = "newsforyou"
+version = "1.0.0"
+description = "Django backend project that lists news blogs, etc for users to see"
+authors = [
+    {name = "MuratbekJ",email = "muratbekj2006@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django (>=5.1.7,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
